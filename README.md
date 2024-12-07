@@ -55,7 +55,7 @@ Run the Flask Application: Start the Flask web server by running the following c
 python3 app.py
 
 Access the Application: Open your web browser and navigate to the following address:
-http://127.0.0.1:5000
+ http://127.0.0.1:5000
 
 
 Option 2: Run the Application with Docker
