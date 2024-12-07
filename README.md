@@ -8,16 +8,16 @@ The Book Recommendation System is an AI-driven application that provides persona
 
 ### 1. Personalized Recommendations:
 
-    Users receive tailored book suggestions based on their individual ratings and preferences.
+Users receive tailored book suggestions based on their individual ratings and preferences.
 
-    Collaborative filtering is used to find similar users and recommend books they may like.
+Collaborative filtering is used to find similar users and recommend books they may like.
 
 ### 2. Popular Books List:
-   
-   Displays a list of the top 50 trending books, allowing users to explore the most popular titles in the community.
+    
+Displays a list of the top 50 trending books, allowing users to explore the most popular titles in the community.
 ### 3. User-Friendly Interface:
 
-   A simple, easy-to-use web application built with Flask that allows users to interact with the system seamlessly.
+A simple, easy-to-use web application built with Flask that allows users to interact with the system seamlessly.
 
 ## Technologies
 
@@ -43,17 +43,17 @@ Follow the steps below to set up the Book Recommendation System on your local ma
 
 Clone the Repository:
 
-git clone https://github.com/niranjan-17/book-recommendation-system
+    git clone https://github.com/niranjan-17/book-recommendation-system
 
-cd book-recommendation-system
+    cd book-recommendation-system
 
 Install Dependencies: Ensure you have Python 3.10 or higher installed on your system. Then, install the required dependencies using pip:
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 Run the Flask Application: Start the Flask web server by running the following command:
 
-python3 app.py
+    python3 app.py
 
 Access the Application: Open your web browser and navigate to the following address:
  http://127.0.0.1:5000
@@ -67,7 +67,7 @@ To run the Book Recommendation System using Docker, you can either pull the imag
 
 ###### Pull the Docker Image:
 
-docker run -td -p 5000:5000 --name book-recommendation-app /book-recommendation-app:3.0-1
+    docker run -td -p 5000:5000 --name book-recommendation-app /book-recommendation-app:3.0-1
 
 Access the Application: Open your browser and visit the following URL:
 http://127.0.0.1:5000
@@ -76,11 +76,11 @@ http://127.0.0.1:5000
 
 Build the Docker Image:
 
-docker build -t book-recommendation-app .
+    docker build -t book-recommendation-app .
 
 ##### Run the Docker Container:
 
-docker run -td -p 5000:5000 --name book-recommendation-app niranjan17kumar/book-recommendation-app:1.0
+    docker run -td -p 5000:5000 --name book-recommendation-app niranjan17kumar/book-recommendation-app:1.0
 
 Access the Application: Open your browser and navigate to:
 http://127.0.0.1:5000
